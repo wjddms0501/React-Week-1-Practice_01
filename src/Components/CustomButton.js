@@ -12,3 +12,5 @@ function CustomButton(props) {
   }
   return <button onClick={onClick}>{children}</button>;
 }
+
+export default CustomButton;
