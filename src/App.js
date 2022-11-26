@@ -63,7 +63,7 @@ const App = () => {
           if (user.age < 25) {
             return (
               <User
-                handleDelet={deleteUserHandler}
+                handleDelete={deleteUserHandler}
                 user={user}
                 key={user.id}
               ></User>
