@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css"; //  반드시 App.css 파일을 import 해줘야 합니다.
-import CustomButton from "./Components/CustomButton";
-import User from "./Components/User";
+import CustomButton from "./components/CustomButton";
+import User from "./components/User";
 
 //버튼 Component
 //이렇게 Component를 분리해주면 추가하기는 초록, 삭제는 빨강처럼
@@ -50,13 +50,10 @@ const App = () => {
   //}
 
   return (
-    // <div>
-    //   <div className="app-style">
-    //     {users.map((user) => {
-    //      return <User user={user} key={user.id}></User>;
-    //     })}
-    //   </div>
-
+    /*<div className="app-style">
+    {users.map((user) => {
+      return <User user={user} key={user.id}></User>;
+    })}*/
     <div>
       <div className="app-style">
         {users.map((user) => {
